@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "SapiumWebview",
-    "slug": "SapiumWebview",
+    "name": "Sapium - Cursos Online",
+    "slug": "SapiumLite",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,13 +17,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "br.com.sapium"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "br.com.sapium"
     },
     "web": {
       "favicon": "./assets/favicon.png"
