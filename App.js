@@ -9,8 +9,8 @@ import {
 
 import { WebView } from "react-native-webview";
 
-// const WEBVIEW_URL = 'https://www.sapium.com.br/';
-const WEBVIEW_URL = "http://192.168.0.153:8002";
+const WEBVIEW_URL = 'https://www.sapium.com.br/';
+// const WEBVIEW_URL = "http://192.168.0.153:8002";
 
 export default function App() {
   const [canGoBack, setCanGoBack] = useState(false);

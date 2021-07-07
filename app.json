@@ -4,9 +4,9 @@
     "slug": "SapiumLite",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/square-icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/rounded-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,7 +22,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/rounded-icon.png",
         "backgroundColor": "#FFFFFF"
       },
       "package": "br.com.sapium"
